@@ -1,0 +1,138 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class Simulation {
+    // Reads Item Data and fills up the U1 and U2 rockets
+    //ArrayList<Object> ArrayList<Object> loadItems() {
+    List[] loadItems() {
+        File file_phase1 = new File("phase-1.txt");
+        System.out.println(file_phase1.exists());
+        File file_phase2 = new File("phase-2.txt");
+        System.out.println(file_phase2.exists());
+        //ArrayList<Object> fileInput_phase1 = new ArrayList<>();
+        ArrayList<Item> fileInput_phase1 = new ArrayList<>();
+        //ArrayList<Object> fileInput_phase2 = new ArrayList<>();
+        ArrayList<Item> fileInput_phase2 = new ArrayList<>();
+        try {
+            Scanner fileScanner_phase1 = new Scanner(file_phase1);
+            while (fileScanner_phase1.hasNextLine()) {
+                String line = fileScanner_phase1.nextLine();
+                String lineSplit[] = line.split("=");
+                Item item = new Item(lineSplit[0],Integer.valueOf(lineSplit[1]));
+                //linesRead = linesRead +1;
+               fileInput_phase1.add(item);
+               //System.out.println("Item added " + line);
+            }
+            Item item = new Item("NA", 0);
+            fileInput_phase1.add(item);
+
+        } catch (FileNotFoundException e) {
+            System.out.println("Phase1 file was not found");
+        }
+        try {
+            Scanner fileScanner_phase2 = new Scanner(file_phase2);
+            while (fileScanner_phase2.hasNextLine()) {
+                String line = fileScanner_phase2.nextLine();
+                String lineSplit[] = line.split("=");
+                Item item = new Item(lineSplit[0], Integer.valueOf(lineSplit[1]));
+                //System.out.println("Item Object Created " + item.name + item.weight);
+                //linesRead = linesRead +1;
+                fileInput_phase2.add(item);
+            }
+            int noOfItems_phase1 = fileInput_phase1.size();
+            int noOfItems_phase2 = fileInput_phase2.size();
+            System.out.println("ArrayList contents: Phase 2 " + fileInput_phase2);
+        } catch (FileNotFoundException e) {
+                System.out.println("Phase2 file was not found");
+            }
+
+        //return fileInput_phase1, fileInput_phase2;
+
+        /*System.out.println("Reading from fileInput_phase1 Arraylist:");
+        for (Item
+        item:fileInput_phase1) {
+
+            System.out.println(item.name);
+            System.out.println(item.weight);
+        }*/
+        return new List[] {fileInput_phase1, fileInput_phase2};
+    }
+
+    //ArrayList<Object> loadU1(ArrayList fileInput) {
+    List [] loadU1(List[] loadItemsU1) {
+
+        /*try (Stream<String> lines = Files.line(path, Charset.defaultCharset())) {
+            long numOfLines = lines.count();
+        }*/
+       /* File file = new File(“D:/data/file.txt”);
+
+        Path path = file.toPath();*/
+
+
+        ArrayList<U1> fileInput_loadU1_phase1 = new ArrayList<>();
+        ArrayList<U1> fileInput_loadU1_phase2 = new ArrayList<>();
+
+        //Files.readAllLines(Path path,fileInput_loadU1_phase1);
+        //U1 u1 = new U1();
+        Object itemRead = loadItemsU1[0].get(0);
+        //trial//
+        //String name1 = itemRead.name;
+        System.out.println("itemRead = " + itemRead);
+        //String weightOfObject =  loadItems_U1[0].get(0);
+        System.out.println("itemRead = " + itemRead.toString());
+        //int itemWeight = itemRead.weight;
+        /*int weightOfItem = itemRead;
+        String nameOfItem = itemRead.name;*/
+        System.out.println("1st Item Object in Simulation Class - Load U1 method " + itemRead);
+        System.out.println("Reading from fileInput_phase1 Arraylist:");
+        System.out.println("**********************" + ((Item) loadItemsU1[0].get(0)).weight);
+        if (fileInput_loadU1_phase1.size() > 0) {
+            U1 u1 = new U1();
+            int totalWeightOfCargo = 0;
+            for (int i = 0; i < 10; i++) {
+                //for (Item item : fileInput_loadU1_phase1)
+                    // System.out.println(loadItemsU1[0].get(0).name);
+                    Object item1 = loadItemsU1[0].get(0);
+                    System.out.println("**********************" + ((Item) loadItemsU1[0].get(0)).weight);
+                    //String name1 = item1.name;
+                    System.out.println(loadItemsU1[1]);
+                    //totalWeightOfCargo = totalWeightOfCargo + item.weight;
+                    if (totalWeightOfCargo > u1.maxCargoWeight) {
+                        fileInput_loadU1_phase1.add(u1);
+                        u1 = null;
+                    } else
+                        System.out.println("Else executed");
+
+
+                }
+                //}
+
+            /*System.out.println("fileInput_loadU1_phase1 entries in loadU1 method:");
+            for (List [] Item
+                    item : loadItems_U1) {
+                System.out.println(item.name);
+                System.out.println(item.weight);
+                totalWeightOfCargo = totalWeightOfCargo + item.weight;
+                if (totalWeightOfCargo > u1.maxCargoWeight) {
+                    fileInput_loadU1_phase1.add(u1);
+                    u1 = null;
+                }
+                else
+                    System.out.println(item.name + item.weight);
+
+
+            }*/
+            }
+            return new List[]{fileInput_loadU1_phase1, fileInput_loadU1_phase2};
+        }
+
+        //U1 u1 = new u1(fileInput_loadU1_phase1);
+
+    }
+

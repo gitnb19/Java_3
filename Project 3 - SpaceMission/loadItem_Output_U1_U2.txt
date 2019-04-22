@@ -1,0 +1,197 @@
+"C:\Program Files\Java\jdk1.8.0_191\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.5\lib\idea_rt.jar=53009:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.5\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Users\bajpa\Downloads\ud282-master\ud282-master\Project 3 - SpaceMission\out\production\Project 3 - SpaceMission" Main
+This is the main method
+U1 object 100 10000 0.0 0.0
+U2 object U2@1b6d3586
+true
+true
+Item Class:
+Item name = building tools
+Item weight = 2000
+Item added building tools=2000
+Item Class:
+Item name = building tools
+Item weight = 2000
+Item added building tools=2000
+Item Class:
+Item name = building tools
+Item weight = 2000
+Item added building tools=2000
+Item Class:
+Item name = building tools
+Item weight = 5000
+Item added building tools=5000
+Item Class:
+Item name = building tools
+Item weight = 5000
+Item added building tools=5000
+Item Class:
+Item name = building tools
+Item weight = 2000
+Item added building tools=2000
+Item Class:
+Item name = building tools
+Item weight = 1000
+Item added building tools=1000
+Item Class:
+Item name = building tools
+Item weight = 5000
+Item added building tools=5000
+Item Class:
+Item name = building tools
+Item weight = 6000
+Item added building tools=6000
+Item Class:
+Item name = shelter equipment
+Item weight = 5000
+Item added shelter equipment=5000
+Item Class:
+Item name = construction equipment
+Item weight = 5000
+Item added construction equipment=5000
+Item Class:
+Item name = plants
+Item weight = 1000
+Item added plants=1000
+Item Class:
+Item name = steel
+Item weight = 8000
+Item added steel=8000
+Item Class:
+Item name = books
+Item weight = 1000
+Item added books=1000
+Item Class:
+Item name = water
+Item weight = 5000
+Item added water=5000
+Item Class:
+Item name = habitat
+Item weight = 3000
+Item Object Created habitat3000
+Item Class:
+Item name = colony
+Item weight = 5000
+Item Object Created colony5000
+Item Class:
+Item name = food
+Item weight = 5000
+Item Object Created food5000
+Item Class:
+Item name = habitat
+Item weight = 3000
+Item Object Created habitat3000
+Item Class:
+Item name = colony
+Item weight = 5000
+Item Object Created colony5000
+Item Class:
+Item name = food
+Item weight = 3000
+Item Object Created food3000
+Item Class:
+Item name = colony
+Item weight = 5000
+Item Object Created colony5000
+Item Class:
+Item name = food
+Item weight = 3000
+Item Object Created food3000
+ArrayList contents: Phase 2 [Item@135fbaa4, Item@45ee12a7, Item@330bedb4, Item@2503dbd3, Item@4b67cf4d, Item@7ea987ac, Item@12a3a380, Item@29453f44]
+true
+true
+Item Class:
+Item name = building tools
+Item weight = 2000
+Item added building tools=2000
+Item Class:
+Item name = building tools
+Item weight = 2000
+Item added building tools=2000
+Item Class:
+Item name = building tools
+Item weight = 2000
+Item added building tools=2000
+Item Class:
+Item name = building tools
+Item weight = 5000
+Item added building tools=5000
+Item Class:
+Item name = building tools
+Item weight = 5000
+Item added building tools=5000
+Item Class:
+Item name = building tools
+Item weight = 2000
+Item added building tools=2000
+Item Class:
+Item name = building tools
+Item weight = 1000
+Item added building tools=1000
+Item Class:
+Item name = building tools
+Item weight = 5000
+Item added building tools=5000
+Item Class:
+Item name = building tools
+Item weight = 6000
+Item added building tools=6000
+Item Class:
+Item name = shelter equipment
+Item weight = 5000
+Item added shelter equipment=5000
+Item Class:
+Item name = construction equipment
+Item weight = 5000
+Item added construction equipment=5000
+Item Class:
+Item name = plants
+Item weight = 1000
+Item added plants=1000
+Item Class:
+Item name = steel
+Item weight = 8000
+Item added steel=8000
+Item Class:
+Item name = books
+Item weight = 1000
+Item added books=1000
+Item Class:
+Item name = water
+Item weight = 5000
+Item added water=5000
+Item Class:
+Item name = habitat
+Item weight = 3000
+Item Object Created habitat3000
+Item Class:
+Item name = colony
+Item weight = 5000
+Item Object Created colony5000
+Item Class:
+Item name = food
+Item weight = 5000
+Item Object Created food5000
+Item Class:
+Item name = habitat
+Item weight = 3000
+Item Object Created habitat3000
+Item Class:
+Item name = colony
+Item weight = 5000
+Item Object Created colony5000
+Item Class:
+Item name = food
+Item weight = 3000
+Item Object Created food3000
+Item Class:
+Item name = colony
+Item weight = 5000
+Item Object Created colony5000
+Item Class:
+Item name = food
+Item weight = 3000
+Item Object Created food3000
+ArrayList contents: Phase 2 [Item@5cad8086, Item@6e0be858, Item@61bbe9ba, Item@610455d6, Item@511d50c0, Item@60e53b93, Item@5e2de80c, Item@1d44bcfa]
+loadU1 = [Ljava.util.List;@266474c2
+
+Process finished with exit code 0
